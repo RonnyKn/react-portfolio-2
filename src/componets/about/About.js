@@ -1,10 +1,6 @@
 import "./About.css"
 
 const About = () => {
-  return (
-    <div className="about">
-      <span>this is about</span>
-    </div>
-  )
+  return <section id="about">this is about</section>
 }
 export default About
