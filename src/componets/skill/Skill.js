@@ -76,7 +76,7 @@ const Skill = () => {
                 <h4>
                   Material-UI <SiMaterialui color="#00affe" />
                 </h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="skill-details">
@@ -85,7 +85,7 @@ const Skill = () => {
                 <h4>
                   Photoshop <SiAdobephotoshop color="#0654a6" />
                 </h4>
-                <small className="text-light">Advanced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill-details">
@@ -130,7 +130,7 @@ const Skill = () => {
                 <h4>
                   MySQL <SiMysql color="orange" />
                 </h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
           </div>

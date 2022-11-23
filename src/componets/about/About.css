@@ -89,6 +89,10 @@
 
 /* ====================MEDIA QUERIES (SMALL DEVICES/phones)============================= */
 @media screen and (max-width:600px) {
+  .about-container {
+    height: 100%;
+  }
+
   .about-me {
     width: 65%;
     margin: 0 auto 3rem;

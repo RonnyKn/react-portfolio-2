@@ -17,6 +17,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 1rem;
+  margin: 0 auto;
 }
 
 .skill-details {
@@ -30,9 +31,33 @@
   color: var(--color-primary);
 }
 
-.skill-content-icon2 {
-  color: var(--color-primary);
-  transform: scale(2.8);
-  margin-top: 1rem;
-  margin-left: .5rem;
+/* ====================MEDIA QUERIES (MEDIUM DEVICES)============================= */
+@media screen and (max-width:1024px) {
+  .skill-frontend {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .skill-content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* ====================MEDIA QUERIES (SMALL DEVICES/phones)============================= */
+@media screen and (max-width:600px) {
+  #skill {
+    margin-top: 14rem;
+  }
+
+  .skill-frontend {
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .skill-content {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+  }
 }

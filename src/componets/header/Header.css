@@ -49,6 +49,7 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+
 /* ========================SCROLL DOWN======================== */
 .scroll-down {
   position: absolute;
@@ -76,5 +77,9 @@ header {
   .header-socials,
   .scroll-down {
     display: none;
+  }
+
+  .me {
+    width: 100%;
   }
 }
