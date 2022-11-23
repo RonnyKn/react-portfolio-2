@@ -4,6 +4,7 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
 import { HiCode } from "react-icons/hi"
 import { RiComputerLine } from "react-icons/ri"
 import { BiMessageRoundedDetail } from "react-icons/bi"
+import { VscFolderLibrary } from "react-icons/vsc"
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState("#home")
@@ -35,7 +36,7 @@ const Navbar = () => {
         className={isActive === "#portfolio" ? "active" : ""}
         onClick={() => setIsActive("#portfolio")}
       >
-        <RiComputerLine />
+        <VscFolderLibrary />
       </a>
       <a
         href="#contact"
