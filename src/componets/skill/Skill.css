@@ -1,0 +1,38 @@
+.skill-frontend {
+  /* background: var(--color-bg-variant); */
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  border-color: var(--color-primary);
+  cursor: default;
+}
+
+.skill-frontend h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.skill-content {
+  /* text-align: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+}
+
+.skill-details {
+  display: flex;
+  gap: 1rem;
+
+}
+
+.skill-content-icon1 {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+
+.skill-content-icon2 {
+  color: var(--color-primary);
+  transform: scale(2.8);
+  margin-top: 1rem;
+  margin-left: .5rem;
+}
