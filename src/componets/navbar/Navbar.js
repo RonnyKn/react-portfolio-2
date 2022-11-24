@@ -2,7 +2,6 @@ import "./Navbar.css"
 import React, { useState } from "react"
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
 import { HiCode } from "react-icons/hi"
-import { RiComputerLine } from "react-icons/ri"
 import { BiMessageRoundedDetail } from "react-icons/bi"
 import { VscFolderLibrary } from "react-icons/vsc"
 

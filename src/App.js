@@ -6,6 +6,7 @@ import About from "./componets/about/About"
 import Skill from "./componets/skill/Skill"
 import Portfolio from "./componets/portfolio/Portfolio"
 import Contact from "./componets/contact/Contact"
+import Footer from "./componets/footer/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Skill />
       <Portfolio />
       <Contact />
+      <Footer />
     </>
   )
 }

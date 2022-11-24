@@ -3,6 +3,7 @@ import React, { useRef } from "react"
 import { MdOutlineEmail } from "react-icons/md"
 import { TbBrandMessenger } from "react-icons/tb"
 import { SiWhatsapp } from "react-icons/si"
+import { IoSend } from "react-icons/io5"
 import emailjs from "@emailjs/browser"
 
 const Contact = () => {
@@ -94,10 +95,11 @@ const Contact = () => {
             id="message"
             cols="30"
             rows="7"
+            placeholder="Your Message.."
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
+          <button type="submit" className="btn btn-primary btn-send">
+            Send Message <IoSend />
           </button>
         </form>
       </div>

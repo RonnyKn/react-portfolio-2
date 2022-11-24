@@ -55,6 +55,11 @@ textarea {
   color: var(--color-white);
 }
 
+.btn-send {
+  padding: .6rem;
+  font-weight: bold;
+}
+
 /* ====================MEDIA QUERIES (MEDIUM DEVICES)============================= */
 @media screen and (max-width:1024px) {
   #contact {

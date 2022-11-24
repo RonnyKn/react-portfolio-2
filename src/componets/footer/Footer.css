@@ -1,0 +1,72 @@
+footer {
+  padding: 3rem 0;
+  background: var(--color-primary);
+  text-align: center;
+  font-size: .9rem;
+  margin-top: 5rem;
+}
+
+footer a {
+  color: var(--color-bg);
+  /* color: black; */
+}
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: .5rem;
+  display: inline-block;
+  text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.74);
+}
+
+.footer-permalinks {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 1rem;
+}
+
+.footer-permalinks a {
+  text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.74);
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-socials a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: .8rem;
+  border-radius: .7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.footer-socials a:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border-color: var(--color-bg);
+}
+
+.footer-copyright {
+  margin-bottom: 4rem;
+  color: var(--color-bg);
+  text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.74);
+}
+
+/* ====================MEDIA QUERIES (MEDIUM DEVICES)============================= */
+@media screen and (max-width:1024px) {}
+
+/* ====================MEDIA QUERIES (SMALL DEVICES/phones)============================= */
+@media screen and (max-width:600px) {
+  .footer-permalinks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+  }
+}
