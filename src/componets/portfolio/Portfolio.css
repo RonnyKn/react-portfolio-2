@@ -60,6 +60,11 @@
   #portfolio {
     height: 100%;
   }
+
+  .portfolio-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
 }
 
 /* ====================MEDIA QUERIES (SMALL DEVICES/phones)============================= */
