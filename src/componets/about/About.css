@@ -71,6 +71,10 @@
 
 /* ====================MEDIA QUERIES (MEDIUM DEVICES)============================= */
 @media screen and (max-width:1024px) {
+  #about {
+    height: 100%;
+  }
+
   .about-container {
     grid-template-columns: 1fr;
     gap: 0;
