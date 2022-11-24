@@ -26,9 +26,9 @@
 
 }
 
-.skill-content-icon1 {
-  margin-top: 6px;
-  color: var(--color-primary);
+.skill-content-icon2 {
+  margin-top: 1rem;
+  transform: scale(2);
 }
 
 /* ====================MEDIA QUERIES (MEDIUM DEVICES)============================= */
@@ -42,14 +42,14 @@
   .skill-content {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .skill-content {
+    padding: 0 0 1rem 2rem;
+  }
 }
 
 /* ====================MEDIA QUERIES (SMALL DEVICES/phones)============================= */
 @media screen and (max-width:600px) {
-  #skill {
-    margin-top: 14rem;
-  }
-
   .skill-frontend {
     width: 100%;
     padding: 1rem;
@@ -58,6 +58,7 @@
 
   .skill-content {
     grid-template-columns: 1fr 1fr;
+    padding: 0 0 1rem 1.7rem;
     margin: 0 auto;
   }
 }

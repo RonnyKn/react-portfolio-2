@@ -26,110 +26,89 @@ const Skill = () => {
           <h3>Development Skills</h3>
           <div className="skill-content">
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <ImHtmlFive2 color="#e54d26" className="skill-content-icon2" />
               <div>
-                <h4>
-                  HTML <ImHtmlFive2 color="#e54d26" />
-                </h4>
+                <h4>HTML </h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <SiCss3 color="#264ee4" className="skill-content-icon2" />
               <div>
-                <h4>
-                  CSS <SiCss3 color="#264ee4" />{" "}
-                </h4>
+                <h4>CSS</h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <SiJavascript color="yellow" className="skill-content-icon2" />
               <div>
-                <h4>
-                  Javascript <SiJavascript color="yellow" />
-                </h4>
+                <h4>Javascript </h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <SiReact color="cyan" className="skill-content-icon2" />
               <div>
-                <h4>
-                  Bootstrap <SiBootstrap color="#8812fc" />{" "}
-                </h4>
+                <h4>ReactJs </h4>
+                <small className="text-light">Advanced</small>
+              </div>
+            </article>
+            <article className="skill-details">
+              <SiMaterialui color="#00affe" className="skill-content-icon2" />
+              <div>
+                <h4>Material-UI </h4>
+                <small className="text-light">Advanced</small>
+              </div>
+            </article>
+            <article className="skill-details">
+              <SiBootstrap color="#8812fc" className="skill-content-icon2" />
+              <div>
+                <h4>Bootstrap </h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <SiAdobephotoshop
+                color="#0654a6"
+                className="skill-content-icon2"
+              />
               <div>
-                <h4>
-                  ReactJs <SiReact color="cyan" />
-                </h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
-              <div>
-                <h4>
-                  Material-UI <SiMaterialui color="#00affe" />
-                </h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
-              <div>
-                <h4>
-                  Photoshop <SiAdobephotoshop color="#0654a6" />
-                </h4>
+                <h4>Photoshop </h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <SiGithub color="#fff" className="skill-content-icon2" />
               <div>
-                <h4>
-                  GitHub <SiGithub color="#fff" />
-                </h4>
+                <h4>GitHub </h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <SiTailwindcss color="#00affe" className="skill-content-icon2" />
               <div>
-                <h4>
-                  Tailwind <SiTailwindcss color="#00affe" />
-                </h4>
+                <h4>Tailwind </h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <FaNodeJs color="lightgreen" className="skill-content-icon2" />
               <div>
-                <h4>
-                  NodeJs <FaNodeJs color="#fff" />
-                </h4>
+                <h4>NodeJs </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <SiMongodb color="lightgreen" className="skill-content-icon2" />
               <div>
-                <h4>
-                  MongoDB <SiMongodb color="lightgreen" />
-                </h4>
+                <h4>MongoDB </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="skill-details">
-              <BsPatchCheckFill className="skill-content-icon1" />
+              <SiMysql color="orange" className="skill-content-icon2" />
               <div>
-                <h4>
-                  MySQL <SiMysql color="orange" />
-                </h4>
+                <h4>MySQL </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>

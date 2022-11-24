@@ -89,7 +89,7 @@
 
 /* ====================MEDIA QUERIES (SMALL DEVICES/phones)============================= */
 @media screen and (max-width:600px) {
-  .about-container {
+  #about {
     height: 100%;
   }
 
