@@ -130,6 +130,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="rons_entertaiment" />
           </div>
           <h3>Tittle Portfolio</h3>
+          <h5 className="portfolio-subtitle text-light">
+            YouTube clone made with ReactJs, Material-UI and fetching the data
+            from RapidAPI YouTube v3
+          </h5>
           <div className="portfolio-link">
             <a
               href="https://github.com/"
@@ -154,6 +158,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="rons_entertaiment" />
           </div>
           <h3>Tittle Portfolio</h3>
+          <h5 className="portfolio-subtitle text-light">
+            YouTube clone made with ReactJs, Material-UI and fetching the data
+            from RapidAPI YouTube v3
+          </h5>
           <div className="portfolio-link">
             <a
               href="https://github.com/"
