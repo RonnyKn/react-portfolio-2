@@ -1,10 +1,36 @@
 import "./Contact.css"
-import React from "react"
+import React, { useRef } from "react"
 import { MdOutlineEmail } from "react-icons/md"
 import { TbBrandMessenger } from "react-icons/tb"
 import { SiWhatsapp } from "react-icons/si"
+import emailjs from "@emailjs/browser"
 
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+    window.alert(
+      "Thankyou, your message has been sent successfully. \nHave a great day ❤."
+    )
+
+    emailjs
+      .sendForm(
+        "service_2y24t5g",
+        "template_2gpy8ly",
+        form.current,
+        "8sH3i4bVXXbpdpkfh"
+      )
+      .then(
+        (result) => {
+          e.target.reset()
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+  }
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -50,10 +76,26 @@ const Contact = () => {
             </div>
           </article>
         </div>
-        <form action="">
-          <input type="text" name="name" placeholder="Your Full Name.." />
-          <input type="email" name="email" placeholder="Your Email.." />
-          <textarea name="message" id="message" cols="30" rows="7"></textarea>
+        <form action="" ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name.."
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email.."
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="7"
+            required
+          ></textarea>
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
