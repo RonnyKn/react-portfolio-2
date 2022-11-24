@@ -1,10 +1,10 @@
 .skill-frontend {
   /* background: var(--color-bg-variant); */
-  padding: 2rem 5rem;
-  border-radius: 2rem;
+  border-radius: 0 0 2rem 2rem;
   border: 1px solid transparent;
   border-color: var(--color-primary);
   cursor: default;
+  background: var(--color-bg-variant);
 }
 
 .skill-frontend h3 {
@@ -12,13 +12,23 @@
   margin-bottom: 1rem;
 }
 
+.skill-title {
+  width: 100%;
+  height: 3rem;
+  margin: 0 auto;
+  padding-top: .5rem;
+  background: var(--color-primary);
+  border-radius: 0 0 20rem 20rem;
+  color: var(--color-bg-variant);
+}
+
 .skill-content {
-  /* text-align: center; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 1rem;
-  margin: 0 auto;
+  margin: 0 auto 0 6.5rem;
   margin-bottom: 1rem;
+  padding: 2rem 0;
 }
 
 .skill-details {
@@ -38,18 +48,10 @@
     height: 100%;
   }
 
-  .skill-frontend {
-    width: 80%;
-    padding: 2rem;
-    margin: 0 auto;
-  }
-
   .skill-content {
     grid-template-columns: 1fr 1fr 1fr;
-  }
+    margin: 0 auto 0 4rem;
 
-  .skill-content {
-    padding: 0 0 1rem 2rem;
   }
 }
 
@@ -57,13 +59,12 @@
 @media screen and (max-width:600px) {
   .skill-frontend {
     width: 100%;
-    padding: 1rem;
     margin: 0 auto;
   }
 
   .skill-content {
     grid-template-columns: 1fr 1fr;
-    padding: 0 0 1rem 1.7rem;
-    margin: 0 auto;
+    padding: 1rem 0 1.5rem .8rem;
+    margin: 0 auto 0 2rem;
   }
 }

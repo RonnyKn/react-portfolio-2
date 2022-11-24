@@ -1,6 +1,5 @@
 import "./Skill.css"
 import React from "react"
-import { BsPatchCheckFill } from "react-icons/bs"
 import { ImHtmlFive2 } from "react-icons/im"
 import { FaNodeJs } from "react-icons/fa"
 import {
@@ -23,7 +22,9 @@ const Skill = () => {
       <h2>My Skills</h2>
       <div className="container skill-container">
         <div className="skill-frontend">
-          <h3>Development Skills</h3>
+          <div className="skill-title">
+            <h3>Development Skills</h3>
+          </div>
           <div className="skill-content">
             <article className="skill-details">
               <ImHtmlFive2 color="#e54d26" className="skill-content-icon2" />
