@@ -4,9 +4,7 @@ import { SiGithub, SiNetlify } from "react-icons/si"
 import IMG1 from "../../assets/imgP1.jpg"
 import IMG2 from "../../assets/imgPShopingCart.jpg"
 import IMG3 from "../../assets/imgP3.jpg"
-import IMG4 from "../../assets/imgP1.jpg"
-import IMG5 from "../../assets/imgP1.jpg"
-import IMG6 from "../../assets/imgP1.jpg"
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
