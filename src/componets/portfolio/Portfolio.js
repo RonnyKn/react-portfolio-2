@@ -19,8 +19,8 @@ const Portfolio = () => {
           </div>
           <h3>Rons Entertainment</h3>
           <h5 className="portfolio-subtitle text-light">
-            Movie website with Reactjs, Material UI and fetching the data from
-            The Movie Database API
+            Movie website with Reactjs & MaterialUI.
+            <br />
           </h5>
           <div className="portfolio-link">
             <a
@@ -47,8 +47,7 @@ const Portfolio = () => {
           </div>
           <h3>React Shoping Cart</h3>
           <h5 className="portfolio-subtitle text-light">
-            React Shoping Cart with useReducer Hook, material-ui and generates
-            the data from fakerJs.
+            Shoping Cart with useReducer & MaterialUI.
           </h5>
           <div className="portfolio-link">
             <a
@@ -59,14 +58,14 @@ const Portfolio = () => {
             >
               GitHub <SiGithub />
             </a>
-            <a
+            {/* <a
               href="https://rons-entertainment.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Demo <SiNetlify />
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio-item">
@@ -75,8 +74,7 @@ const Portfolio = () => {
           </div>
           <h3>whYTube</h3>
           <h5 className="portfolio-subtitle text-light">
-            YouTube clone made with ReactJs, Material-UI and fetching the data
-            from RapidAPI YouTube v3
+            YouTube clone with ReactJs & Material-UI.
           </h5>
           <div className="portfolio-link">
             <a
@@ -87,14 +85,14 @@ const Portfolio = () => {
             >
               GitHub <SiGithub />
             </a>
-            <a
+            {/* <a
               href="https://netlify.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Demo <SiNetlify />
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio-item">
@@ -115,14 +113,14 @@ const Portfolio = () => {
             >
               GitHub <SiGithub />
             </a>
-            <a
+            {/* <a
               href="https://netlify.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Demo <SiNetlify />
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio-item">
@@ -143,14 +141,14 @@ const Portfolio = () => {
             >
               GitHub <SiGithub />
             </a>
-            <a
+            {/* <a
               href="https://netlify.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Demo <SiNetlify />
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio-item">
@@ -171,14 +169,14 @@ const Portfolio = () => {
             >
               GitHub <SiGithub />
             </a>
-            <a
+            {/* <a
               href="https://netlify.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Demo <SiNetlify />
-            </a>
+            </a> */}
           </div>
         </article>
       </div>

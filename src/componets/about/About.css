@@ -25,12 +25,14 @@
   transform: rotate(0deg);
 }
 
+/* .about-me-img img {
+  height: 360px;
+} */
+
 .about-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: .5rem;
-  /* display: flex;
-  flex: 1;*/
 }
 
 .about-card {

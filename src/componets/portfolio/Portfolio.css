@@ -28,7 +28,7 @@
 
 .portfolio-item-img {
   overflow: hidden;
-  border-radius: 1rem
+  border-radius: 1rem;
 }
 
 .portfolio-item:hover {
@@ -38,6 +38,7 @@
 
 .portfolio-item-img img {
   border-radius: 1.2rem;
+  height: 100%;
 
 }
 
@@ -48,7 +49,7 @@
 }
 
 .portfolio-subtitle {
-  text-align: justify;
+  text-align: center;
   padding: 0 5px;
 }
 

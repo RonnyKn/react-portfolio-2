@@ -1,5 +1,5 @@
 import "./About.css"
-import ME_about from "../../assets/me-about.jpg"
+import ME2 from "../../assets/w.jpg"
 import { FaAward } from "react-icons/fa"
 import { GiTechnoHeart } from "react-icons/gi"
 import { VscFolderLibrary } from "react-icons/vsc"
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about-container">
         <div className="about-me">
           <div className="about-me-img">
-            <img src={ME_about} alt="about_image" />
+            <img src={ME2} alt="about_image" />
           </div>
         </div>
 
@@ -40,11 +40,12 @@ const About = () => {
               <small>10+ Projects</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-            libero a dolorum nisi placeat saepe ipsum dolorem beatae rem, animi
-            itaque eligendi, voluptatem incidunt quisquam. Laboriosam nemo
-            voluptatum eveniet iusto.
+          <p style={{ textAlign: "justify" }}>
+            Hello, my name is Ronny Kurniawan. I design and build UI for modern
+            websites. I've graduate from Gadjah Mada Univ and have experience at
+            BPJS Ketenagakerjaan Purwokerto & Stanford Teknologi Indonesia.
+            Football and Technologies are my favourite topics. Please visit my
+            GitHub profile for detail projects.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

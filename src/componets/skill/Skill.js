@@ -89,7 +89,7 @@ const Skill = () => {
               <SiTailwindcss color="#00affe" className="skill-content-icon2" />
               <div>
                 <h4>Tailwind </h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="skill-details">
