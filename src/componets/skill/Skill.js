@@ -18,10 +18,15 @@ import {
 const Skill = () => {
   return (
     <section id="skill">
-      <h5>Get to Know</h5>
-      <h2>My Skills</h2>
+      <h5 data-aos="fade-in">Get to Know</h5>
+      <h2 data-aos="fade-in" data-aos-delay="500">
+        My Skills
+        <strong className="animate__animated animate__flash animate__infinite">
+          |
+        </strong>
+      </h2>
       <div className="container skill-container">
-        <div className="skill-frontend">
+        <div className="skill-frontend" data-aos="fade-in" data-aos-delay="500">
           <div className="skill-title">
             <h3>Development Skills</h3>
           </div>

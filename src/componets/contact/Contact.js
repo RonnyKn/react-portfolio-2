@@ -34,11 +34,20 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5 data-aos="fade-in">Get In Touch</h5>
+      <h2 data-aos="fade-in" data-aos-delay="500">
+        Contact Me
+        <strong className="animate__animated animate__flash animate__infinite">
+          |
+        </strong>
+      </h2>
       <div className="container contact-container">
         <div className="contact-options">
-          <article className="contact-option">
+          <article
+            className="contact-option"
+            data-aos="fade-right"
+            data-aos-delay="800"
+          >
             <div className="email">
               <MdOutlineEmail className="contact-option-icon" />
               <h4>E-mail</h4>
@@ -52,7 +61,11 @@ const Contact = () => {
               </a>
             </div>
           </article>
-          <article className="contact-option">
+          <article
+            className="contact-option"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+          >
             <div className="messenger">
               <TbBrandMessenger className="contact-option-icon" />
               <h4>Messenger</h4>
@@ -62,7 +75,11 @@ const Contact = () => {
               </a>
             </div>
           </article>
-          <article className="contact-option">
+          <article
+            className="contact-option"
+            data-aos="fade-right"
+            data-aos-delay="1200"
+          >
             <div className="whatsapp">
               <SiWhatsapp className="contact-option-icon" />
               <h4>WhatsApp</h4>
@@ -83,12 +100,16 @@ const Contact = () => {
             name="name"
             placeholder="Your Full Name.."
             required
+            data-aos="fade-left"
+            data-aos-delay="1400"
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email.."
             required
+            data-aos="fade-left"
+            data-aos-delay="1600"
           />
           <textarea
             name="message"
@@ -97,8 +118,15 @@ const Contact = () => {
             rows="7"
             placeholder="Your Message.."
             required
+            data-aos="fade-left"
+            data-aos-delay="1700"
           ></textarea>
-          <button type="submit" className="btn btn-primary btn-send">
+          <button
+            type="submit"
+            className="btn btn-primary btn-send"
+            data-aos="fade-up"
+            data-aos-delay="1800"
+          >
             Send Message <IoSend />
           </button>
         </form>

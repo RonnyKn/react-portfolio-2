@@ -7,6 +7,7 @@ import Skill from "./componets/skill/Skill"
 import Portfolio from "./componets/portfolio/Portfolio"
 import Contact from "./componets/contact/Contact"
 import Footer from "./componets/footer/Footer"
+import "animate.css"
 
 function App() {
   return (

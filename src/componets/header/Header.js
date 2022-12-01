@@ -8,12 +8,19 @@ const Header = () => {
   return (
     <header>
       <div id="home" className="container header-container">
-        <h5>Hello I'm</h5>
-        <h1>Ronny Kurniawan</h1>
-        <h5 className="text-light">Front-end Developer</h5>
+        <h5 data-aos="fade-up">Hello I'm</h5>
+        <h1 data-aos="fade-up">
+          Ronny Kurniawan
+          <strong className="animate__animated animate__flash animate__infinite">
+            |
+          </strong>
+        </h1>
+        <h5 className="text-light" data-aos="fade-in" data-aos-delay="500">
+          Front-end Developer
+        </h5>
         <CTA />
         <HeaderSocials />
-        <div className="me">
+        <div className="me" data-aos="fade-in">
           <img src={PROFIL} alt="" />
         </div>
         <div className="scroll-down">
