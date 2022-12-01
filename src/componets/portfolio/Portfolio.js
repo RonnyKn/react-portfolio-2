@@ -51,7 +51,7 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-in"
-          data-aos-delay="800"
+          data-aos-delay="700"
         >
           <div className="portfolio-item-img">
             <img src={IMG2} alt="rons_entertaiment" />
@@ -82,7 +82,7 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-left"
-          data-aos-delay="1000"
+          data-aos-delay="900"
         >
           <div className="portfolio-item-img">
             <img src={IMG3} alt="rons_entertaiment" />
@@ -113,7 +113,7 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-right"
-          data-aos-delay="1200"
+          data-aos-delay="1000"
         >
           <div className="portfolio-item-img">
             <img src={IMG1} alt="rons_entertaiment" />
@@ -145,7 +145,7 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-in"
-          data-aos-delay="1500"
+          data-aos-delay="1100"
         >
           <div className="portfolio-item-img">
             <img src={IMG1} alt="rons_entertaiment" />
@@ -177,7 +177,7 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-left"
-          data-aos-delay="1800"
+          data-aos-delay="1400"
         >
           <div className="portfolio-item-img">
             <img src={IMG1} alt="rons_entertaiment" />
