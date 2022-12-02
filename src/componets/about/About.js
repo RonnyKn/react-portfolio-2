@@ -71,7 +71,7 @@ const About = () => {
             data-aos="flip-down"
             data-aos-delay="1500"
           >
-            Hello, my name is Ronny Kurniawan. I design and build UI for modern
+            Hi, my name is Ronny Kurniawan. I design and build UI for modern
             websites. I've graduate from Gadjah Mada Univ and have experience at
             BPJS Ketenagakerjaan Purwokerto & Stanford Teknologi Indonesia.
             Football and Technologies are my favourite topics. Please visit my
