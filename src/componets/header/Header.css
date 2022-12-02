@@ -1,7 +1,8 @@
 header {
-  height: 47rem;
+  height: 100%;
   padding-top: 4rem;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .header-container {
