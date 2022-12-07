@@ -31,49 +31,77 @@ const Skill = () => {
             <h3>Development Skills</h3>
           </div>
           <div className="skill-content">
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="600"
+            >
               <ImHtmlFive2 color="#e54d26" className="skill-content-icon2" />
               <div>
                 <h4>HTML </h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="700"
+            >
               <SiCss3 color="#264ee4" className="skill-content-icon2" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="800"
+            >
               <SiJavascript color="yellow" className="skill-content-icon2" />
               <div>
                 <h4>Javascript </h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="900"
+            >
               <SiReact color="cyan" className="skill-content-icon2" />
               <div>
                 <h4>ReactJs </h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="1000"
+            >
               <SiMaterialui color="#00affe" className="skill-content-icon2" />
               <div>
                 <h4>Material-UI </h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="1100"
+            >
               <SiBootstrap color="#8812fc" className="skill-content-icon2" />
               <div>
                 <h4>Bootstrap </h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="1200"
+            >
               <SiAdobephotoshop
                 color="#0654a6"
                 className="skill-content-icon2"
@@ -83,35 +111,55 @@ const Skill = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="1300"
+            >
               <SiGithub color="#fff" className="skill-content-icon2" />
               <div>
                 <h4>GitHub </h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="1400"
+            >
               <SiTailwindcss color="#00affe" className="skill-content-icon2" />
               <div>
                 <h4>Tailwind </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="1500"
+            >
               <FaNodeJs color="lightgreen" className="skill-content-icon2" />
               <div>
                 <h4>NodeJs </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="1600"
+            >
               <SiMongodb color="lightgreen" className="skill-content-icon2" />
               <div>
                 <h4>MongoDB </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
-            <article className="skill-details">
+            <article
+              className="skill-details"
+              data-aos="fade-in"
+              data-aos-delay="1700"
+            >
               <SiMysql color="orange" className="skill-content-icon2" />
               <div>
                 <h4>MySQL </h4>
