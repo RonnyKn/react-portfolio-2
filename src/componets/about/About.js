@@ -22,7 +22,7 @@ const About = () => {
               src={ME2}
               alt="about_image"
               data-aos="fade-in"
-              data-aos-delay="800"
+              data-aos-delay="700"
             />
           </div>
         </div>
@@ -32,7 +32,7 @@ const About = () => {
             <article
               className="about-card"
               data-aos="fade-right"
-              data-aos-delay="500"
+              data-aos-delay="800"
             >
               <IoSchoolOutline className="about-card-icon" />
               <h5>College</h5>
@@ -50,7 +50,7 @@ const About = () => {
             <article
               className="about-card"
               data-aos="fade-left"
-              data-aos-delay="1500"
+              data-aos-delay="1200"
             >
               <GiTechnoHeart className="about-card-icon" />
               <h5>Interest</h5>
@@ -59,7 +59,7 @@ const About = () => {
             <article
               className="about-card"
               data-aos="fade-left"
-              data-aos-delay="2000"
+              data-aos-delay="1400"
             >
               <VscFolderLibrary className="about-card-icon" />
               <h5>Projects</h5>
@@ -69,7 +69,7 @@ const About = () => {
           <p
             style={{ textAlign: "justify" }}
             data-aos="flip-down"
-            data-aos-delay="1500"
+            data-aos-delay="1000"
           >
             Hi, my name is Ronny Kurniawan. I design and build UI for modern
             websites. I've graduate from Gadjah Mada Univ and have experience at
@@ -81,7 +81,7 @@ const About = () => {
             href="#contact"
             className="btn btn-primary"
             data-aos="fade-up"
-            data-aos-delay="1000"
+            data-aos-delay="1100"
           >
             Let's Talk
           </a>

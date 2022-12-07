@@ -19,7 +19,7 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-right"
-          data-aos-delay="500"
+          data-aos-delay="600"
         >
           <div className="portfolio-item-img">
             <img src={IMG1} alt="rons_entertaiment" />
@@ -51,7 +51,7 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-in"
-          data-aos-delay="700"
+          data-aos-delay="800"
         >
           <div className="portfolio-item-img">
             <img src={IMG2} alt="rons_entertaiment" />
@@ -82,7 +82,7 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-left"
-          data-aos-delay="900"
+          data-aos-delay="1000"
         >
           <div className="portfolio-item-img">
             <img src={IMG3} alt="rons_entertaiment" />
@@ -113,38 +113,6 @@ const Portfolio = () => {
         <article
           className="portfolio-item"
           data-aos="fade-right"
-          data-aos-delay="1000"
-        >
-          <div className="portfolio-item-img">
-            <img src={IMG1} alt="rons_entertaiment" />
-          </div>
-          <h3>Tittle Portfolio</h3>
-          <h5 className="portfolio-subtitle text-light">
-            YouTube clone made with ReactJs, Material-UI and fetching the data
-            from RapidAPI YouTube v3
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            {/* <a
-              href="https://netlify.com/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a> */}
-          </div>
-        </article>
-        <article
-          className="portfolio-item"
-          data-aos="fade-in"
           data-aos-delay="1100"
         >
           <div className="portfolio-item-img">
@@ -176,8 +144,40 @@ const Portfolio = () => {
         </article>
         <article
           className="portfolio-item"
+          data-aos="fade-in"
+          data-aos-delay="1200"
+        >
+          <div className="portfolio-item-img">
+            <img src={IMG1} alt="rons_entertaiment" />
+          </div>
+          <h3>Tittle Portfolio</h3>
+          <h5 className="portfolio-subtitle text-light">
+            YouTube clone made with ReactJs, Material-UI and fetching the data
+            from RapidAPI YouTube v3
+          </h5>
+          <div className="portfolio-link">
+            <a
+              href="https://github.com/"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub <SiGithub />
+            </a>
+            {/* <a
+              href="https://netlify.com/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo <SiNetlify />
+            </a> */}
+          </div>
+        </article>
+        <article
+          className="portfolio-item"
           data-aos="fade-left"
-          data-aos-delay="1400"
+          data-aos-delay="1300"
         >
           <div className="portfolio-item-img">
             <img src={IMG1} alt="rons_entertaiment" />

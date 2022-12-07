@@ -11,8 +11,11 @@
   text-decoration: none;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 :root {
@@ -40,6 +43,7 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
+
 }
 
 .container {
@@ -61,7 +65,8 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
 }
 
 section>h2,
@@ -120,6 +125,7 @@ img {
 @media screen and (max-width:1024px) {
   .container {
     width: var(--container-width-md);
+    margin: 0 auto;
   }
 
   .section {
@@ -131,6 +137,7 @@ img {
 @media screen and (max-width:600px) {
   .container {
     width: var(--container-width-sm);
+    margin: 0 auto;
   }
 
   .section>h2 {
