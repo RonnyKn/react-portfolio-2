@@ -29,6 +29,11 @@
 .portfolio-item-img {
   overflow: hidden;
   border-radius: 1rem;
+  height: 11rem;
+}
+
+.portfolio-item-img img {
+  height: fit-content;
 }
 
 .portfolio-item:hover {

@@ -4,6 +4,8 @@ import { SiGithub, SiNetlify } from "react-icons/si"
 import IMG1 from "../../assets/imgP1.jpg"
 import IMG2 from "../../assets/imgPShopingCart.jpg"
 import IMG3 from "../../assets/imgP3.jpg"
+import portfolioWEB from "../../assets/portfolioWEB.jpg"
+import educationWEB from "../../assets/educationWEB.jpg"
 
 const Portfolio = () => {
   return (
@@ -54,6 +56,68 @@ const Portfolio = () => {
           data-aos-delay="800"
         >
           <div className="portfolio-item-img">
+            <img src={educationWEB} alt="rons_entertaiment" />
+          </div>
+          <h3>Responsive Education Website</h3>
+          <h5 className="portfolio-subtitle text-light">
+            Education website with ReactJs.
+          </h5>
+          <div className="portfolio-link">
+            <a
+              href="https://github.com/RonnyKn/react-responsive-education-website"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub <SiGithub />
+            </a>
+            <a
+              href="https://react-ronseducation.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo <SiNetlify />
+            </a>
+          </div>
+        </article>
+        <article
+          className="portfolio-item"
+          data-aos="fade-left"
+          data-aos-delay="1000"
+        >
+          <div className="portfolio-item-img">
+            <img src={portfolioWEB} alt="portfolioWEB" />
+          </div>
+          <h3>My Portfolio</h3>
+          <h5 className="portfolio-subtitle text-light">
+            Portfolio website with Reactjs.
+          </h5>
+          <div className="portfolio-link">
+            <a
+              href="https://github.com/RonnyKn/react-portfolio-2"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub <SiGithub />
+            </a>
+            <a
+              href="https://ronnykn-dev.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo <SiNetlify />
+            </a>
+          </div>
+        </article>
+        <article
+          className="portfolio-item"
+          data-aos="fade-right"
+          data-aos-delay="1100"
+        >
+          <div className="portfolio-item-img">
             <img src={IMG2} alt="rons_entertaiment" />
           </div>
           <h3>React Shoping Cart</h3>
@@ -81,8 +145,8 @@ const Portfolio = () => {
         </article>
         <article
           className="portfolio-item"
-          data-aos="fade-left"
-          data-aos-delay="1000"
+          data-aos="fade-in"
+          data-aos-delay="1200"
         >
           <div className="portfolio-item-img">
             <img src={IMG3} alt="rons_entertaiment" />
@@ -110,71 +174,7 @@ const Portfolio = () => {
             </a> */}
           </div>
         </article>
-        <article
-          className="portfolio-item"
-          data-aos="fade-right"
-          data-aos-delay="1100"
-        >
-          <div className="portfolio-item-img">
-            <img src={IMG1} alt="rons_entertaiment" />
-          </div>
-          <h3>Tittle Portfolio</h3>
-          <h5 className="portfolio-subtitle text-light">
-            YouTube clone made with ReactJs, Material-UI and fetching the data
-            from RapidAPI YouTube v3
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            {/* <a
-              href="https://netlify.com/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a> */}
-          </div>
-        </article>
-        <article
-          className="portfolio-item"
-          data-aos="fade-in"
-          data-aos-delay="1200"
-        >
-          <div className="portfolio-item-img">
-            <img src={IMG1} alt="rons_entertaiment" />
-          </div>
-          <h3>Tittle Portfolio</h3>
-          <h5 className="portfolio-subtitle text-light">
-            YouTube clone made with ReactJs, Material-UI and fetching the data
-            from RapidAPI YouTube v3
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            {/* <a
-              href="https://netlify.com/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a> */}
-          </div>
-        </article>
-        <article
+        {/* <article
           className="portfolio-item"
           data-aos="fade-left"
           data-aos-delay="1300"
@@ -196,16 +196,16 @@ const Portfolio = () => {
             >
               GitHub <SiGithub />
             </a>
-            {/* <a
+            <a
               href="https://netlify.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Demo <SiNetlify />
-            </a> */}
+            </a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   )
