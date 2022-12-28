@@ -1,11 +1,7 @@
 import "./Portfolio.css"
 import React from "react"
 import { SiGithub, SiNetlify } from "react-icons/si"
-import IMG1 from "../../assets/imgP1.jpg"
-import IMG2 from "../../assets/imgPShopingCart.jpg"
-import IMG3 from "../../assets/imgP3.jpg"
-import portfolioWEB from "../../assets/portfolioWEB.jpg"
-import educationWEB from "../../assets/educationWEB.jpg"
+import { portfolioDatas } from "../../data/Data"
 
 const Portfolio = () => {
   return (
@@ -18,194 +14,41 @@ const Portfolio = () => {
         </strong>
       </h2>
       <div className="container portfolio-container">
-        <article
-          className="portfolio-item"
-          data-aos="fade-right"
-          data-aos-delay="600"
-        >
-          <div className="portfolio-item-img">
-            <img src={IMG1} alt="rons_entertaiment" />
-          </div>
-          <h3>Rons Entertainment</h3>
-          <h5 className="portfolio-subtitle text-light">
-            Movie website with Reactjs & MaterialUI.
-            <br />
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/RonnyKn/rons-entertainment"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            <a
-              href="https://rons-entertainment.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a>
-          </div>
-        </article>
-        <article
-          className="portfolio-item"
-          data-aos="fade-in"
-          data-aos-delay="800"
-        >
-          <div className="portfolio-item-img">
-            <img src={educationWEB} alt="rons_entertaiment" />
-          </div>
-          <h3>Responsive Education Website</h3>
-          <h5 className="portfolio-subtitle text-light">
-            Education website with ReactJs.
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/RonnyKn/react-responsive-education-website"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            <a
-              href="https://react-ronseducation.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a>
-          </div>
-        </article>
-        <article
-          className="portfolio-item"
-          data-aos="fade-left"
-          data-aos-delay="1000"
-        >
-          <div className="portfolio-item-img">
-            <img src={portfolioWEB} alt="portfolioWEB" />
-          </div>
-          <h3>My Portfolio</h3>
-          <h5 className="portfolio-subtitle text-light">
-            Portfolio website with Reactjs.
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/RonnyKn/react-portfolio-2"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            <a
-              href="https://ronnykn-dev.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a>
-          </div>
-        </article>
-        <article
-          className="portfolio-item"
-          data-aos="fade-right"
-          data-aos-delay="1100"
-        >
-          <div className="portfolio-item-img">
-            <img src={IMG2} alt="rons_entertaiment" />
-          </div>
-          <h3>React Shoping Cart</h3>
-          <h5 className="portfolio-subtitle text-light">
-            Shoping Cart with useReducer & MaterialUI.
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/RonnyKn/react-shopping-cart"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            {/* <a
-              href="https://rons-entertainment.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a> */}
-          </div>
-        </article>
-        <article
-          className="portfolio-item"
-          data-aos="fade-in"
-          data-aos-delay="1200"
-        >
-          <div className="portfolio-item-img">
-            <img src={IMG3} alt="rons_entertaiment" />
-          </div>
-          <h3>whYTube</h3>
-          <h5 className="portfolio-subtitle text-light">
-            YouTube clone with ReactJs & Material-UI.
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/RonnyKn/whYTube"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            {/* <a
-              href="https://netlify.com/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a> */}
-          </div>
-        </article>
-        {/* <article
-          className="portfolio-item"
-          data-aos="fade-left"
-          data-aos-delay="1300"
-        >
-          <div className="portfolio-item-img">
-            <img src={IMG1} alt="rons_entertaiment" />
-          </div>
-          <h3>Tittle Portfolio</h3>
-          <h5 className="portfolio-subtitle text-light">
-            YouTube clone made with ReactJs, Material-UI and fetching the data
-            from RapidAPI YouTube v3
-          </h5>
-          <div className="portfolio-link">
-            <a
-              href="https://github.com/"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <SiGithub />
-            </a>
-            <a
-              href="https://netlify.com/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo <SiNetlify />
-            </a>
-          </div>
-        </article> */}
+        {portfolioDatas?.map((data, idx) => (
+          <article
+            key={idx}
+            className="portfolio-item"
+            data-aos={data?.aos}
+            data-aos-delay={data?.aosDelay}
+          >
+            <div className="portfolio-item-img">
+              <img src={data?.img} alt={`images/${idx}`} />
+            </div>
+            <h3>{data?.title}</h3>
+            <h5 className="portfolio-subtitle text-light">
+              {data?.desc}
+              <br />
+            </h5>
+            <div className="portfolio-link">
+              <a
+                href={data?.github}
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub <SiGithub />
+              </a>
+              <a
+                href={data?.demo}
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Demo <SiNetlify />
+              </a>
+            </div>
+          </article>
+        ))}
       </div>
     </section>
   )
