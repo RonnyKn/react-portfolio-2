@@ -65,6 +65,13 @@
   margin-top: .5rem;
 }
 
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
 /* ====================MEDIA QUERIES (MEDIUM DEVICES)============================= */
 @media screen and (max-width:1024px) {
   #portfolio {

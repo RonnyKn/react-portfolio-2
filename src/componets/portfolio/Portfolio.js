@@ -32,7 +32,7 @@ const Portfolio = () => {
             <div className="portfolio-link">
               <a
                 href={data?.github}
-                className="btn"
+                className="btn centered"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -43,7 +43,7 @@ const Portfolio = () => {
               ) : (
                 <a
                   href={data?.demo}
-                  className="btn btn-primary"
+                  className="btn btn-primary centered"
                   target="_blank"
                   rel="noreferrer"
                 >
