@@ -38,14 +38,18 @@ const Portfolio = () => {
               >
                 GitHub <SiGithub />
               </a>
-              <a
-                href={data?.demo}
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Demo <SiNetlify />
-              </a>
+              {data?.demo === undefined ? (
+                ""
+              ) : (
+                <a
+                  href={data?.demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Demo <SiNetlify />
+                </a>
+              )}
             </div>
           </article>
         ))}
