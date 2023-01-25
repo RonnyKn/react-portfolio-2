@@ -94,10 +94,11 @@ const Contact = () => {
             </div>
           </article>
         </div>
-        <form action="" ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
-            name="name"
+            id="user_name"
+            name="user_name"
             placeholder="Your Full Name.."
             required
             data-aos="fade-left"
@@ -105,7 +106,7 @@ const Contact = () => {
           />
           <input
             type="email"
-            name="email"
+            name="user_email"
             placeholder="Your Email.."
             required
             data-aos="fade-left"
