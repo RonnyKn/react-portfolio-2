@@ -83,7 +83,7 @@ const About = () => {
             data-aos="fade-up"
             data-aos-delay="1100"
           >
-            Let's Talk
+            Contact Me
           </a>
         </div>
       </div>
