@@ -9,7 +9,7 @@ const portfolioDatas = [
   {
     title: "Kenangan Senja Coffee",
     img: PortfolioImg5,
-    desc: "Coffee Shop website with ReactJs.",
+    desc: "Responsive Coffee Shop website with ReactJs.",
     github: "https://github.com/RonnyKn/kopiKenanganSenja",
     demo: "https://kenangansenja.netlify.app/",
     aos: "fade-right",
@@ -18,7 +18,7 @@ const portfolioDatas = [
   {
     title: "Rons Entertainment",
     img: PortfolioImg2,
-    desc: "Movie website with Reactjs & MaterialUI.",
+    desc: "Responsive Movie website with Reactjs & MaterialUI.",
     github: "https://github.com/RonnyKn/rons-entertainment",
     demo: "https://rons-entertainment.netlify.app/",
     aos: "fade-in",
@@ -27,7 +27,7 @@ const portfolioDatas = [
   {
     title: "Responsive React Ecommerce",
     img: PortfolioImg1,
-    desc: "Ecommerce website using Redux.",
+    desc: "Responsive Ecommerce website using Redux.",
     github: "https://github.com/RonnyKn/Ecommerce-Reactjs",
     demo: "https://reactjs-ecommerce-web-app.netlify.app/",
     aos: "fade-left",
@@ -36,7 +36,7 @@ const portfolioDatas = [
   {
     title: "Ronshop",
     img: PortfolioImg4,
-    desc: "Ecommerce website with ReactJs & Firebase.",
+    desc: "Responsive Ecommerce website with ReactJs & Firebase.",
     github: "https://github.com/RonnyKn/ecommerce-furniture",
     demo: "https://ronshop.netlify.app/",
     aos: "fade-right",
@@ -45,7 +45,7 @@ const portfolioDatas = [
   {
     title: "Malaka Books",
     img: PortfolioImg6,
-    desc: "Landing page for a book product with ReactJs Design by Nauval.",
+    desc: "Responsive Landing page for a book product with ReactJs. Design by Nauval.",
     github: "https://github.com/RonnyKn/whYTube",
     demo: "https://malaka-bookstore.netlify.app/",
     aos: "fade-in",
@@ -54,7 +54,7 @@ const portfolioDatas = [
   {
     title: "Responsive Education Website",
     img: PortfolioImg3,
-    desc: "Simple Education website with ReactJs Design by Nauval.",
+    desc: "Responsive Simple Education website with ReactJs. Design by Nauval.",
     github: "https://github.com/RonnyKn/react-responsive-education-website",
     demo: "https://react-ronseducation.netlify.app/",
     aos: "fade-left",
