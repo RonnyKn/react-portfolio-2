@@ -83,7 +83,7 @@ const Skill = () => {
               <SiMaterialui color="#00affe" className="skill-content-icon2" />
               <div>
                 <h4>Material-UI </h4>
-                <small className="text-light">Advanced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article
