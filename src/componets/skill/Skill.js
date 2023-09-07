@@ -7,10 +7,10 @@ import {
   SiJavascript,
   SiBootstrap,
   SiReact,
-  SiMaterialui,
+  SiTypescript,
   SiAdobephotoshop,
   SiGithub,
-  SiTailwindcss,
+  SiNextdotjs,
   SiMongodb,
   SiMysql,
 } from "react-icons/si"
@@ -75,17 +75,19 @@ const Skill = () => {
                 <small className="text-light">Advanced</small>
               </div>
             </article>
+
             <article
               className="skill-details"
               data-aos="fade-in"
-              data-aos-delay="1000"
+              data-aos-delay="1400"
             >
-              <SiMaterialui color="#00affe" className="skill-content-icon2" />
+              <SiNextdotjs color="black" className="skill-content-icon2" />
               <div>
-                <h4>Material-UI </h4>
-                <small className="text-light">Intermediate</small>
+                <h4>NextJs </h4>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
+   
             <article
               className="skill-details"
               data-aos="fade-in"
@@ -122,17 +124,19 @@ const Skill = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+
             <article
               className="skill-details"
               data-aos="fade-in"
-              data-aos-delay="1400"
+              data-aos-delay="1000"
             >
-              <SiTailwindcss color="#00affe" className="skill-content-icon2" />
+              <SiTypescript color="#00affe" className="skill-content-icon2" />
               <div>
-                <h4>Tailwind </h4>
+                <h4>Typescript </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
+          
             <article
               className="skill-details"
               data-aos="fade-in"
