@@ -1,9 +1,9 @@
-import "./About.css"
-import ME2 from "../../assets/w.jpg"
-import { FaAward } from "react-icons/fa"
-import { GiTechnoHeart } from "react-icons/gi"
-import { VscFolderLibrary } from "react-icons/vsc"
-import { IoSchoolOutline } from "react-icons/io5"
+import "./About.css";
+import ME2 from "../../assets/w.jpg";
+import { FaAward } from "react-icons/fa";
+import { GiTechnoHeart } from "react-icons/gi";
+import { VscFolderLibrary } from "react-icons/vsc";
+import { IoSchoolOutline } from "react-icons/io5";
 
 const About = () => {
   return (
@@ -29,42 +29,73 @@ const About = () => {
 
         <div className="about-content">
           <div className="about-cards">
-            <article
-              className="about-card"
-              data-aos="fade-right"
-              data-aos-delay="800"
+            <a
+              className="about-card-link"
+              href="https://ugm.ac.id/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <IoSchoolOutline className="about-card-icon" />
-              <h5>College</h5>
-              <small>Gadjah Mada Univ.</small>
-            </article>
-            <article
-              className="about-card"
-              data-aos="fade-right"
-              data-aos-delay="1000"
+              <article
+                className="about-card"
+                data-aos="fade-right"
+                data-aos-delay="800"
+              >
+                <IoSchoolOutline className="about-card-icon" />
+                <h5>College</h5>
+                <small>Gadjah Mada Univ.</small>
+              </article>
+            </a>
+
+            <a
+              className="about-card-link"
+              // href="https://ugm.ac.id/"
+              // target="_blank"
+              // rel="noreferrer"
             >
-              <FaAward className="about-card-icon" />
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
-            </article>
-            <article
-              className="about-card"
-              data-aos="fade-left"
-              data-aos-delay="1200"
+              <article
+                className="about-card"
+                data-aos="fade-right"
+                data-aos-delay="1000"
+              >
+                <FaAward className="about-card-icon" />
+                <h5>Experience</h5>
+                <small>1+ Years Working</small>
+              </article>
+            </a>
+
+            <a
+              className="about-card-link"
+              href="https://www.bola.net/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <GiTechnoHeart className="about-card-icon" />
-              <h5>Interest</h5>
-              <small>Football & Technology</small>
-            </article>
-            <article
-              className="about-card"
-              data-aos="fade-left"
-              data-aos-delay="1400"
+              <article
+                className="about-card"
+                data-aos="fade-left"
+                data-aos-delay="1200"
+              >
+                <GiTechnoHeart className="about-card-icon" />
+                <h5>Interest</h5>
+                <small>Football </small>
+              </article>
+            </a>
+
+            <a
+              className="about-card-link"
+              href="https://github.com/RonnyKn/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <VscFolderLibrary className="about-card-icon" />
-              <h5>Projects</h5>
-              <small>10+ Projects</small>
-            </article>
+              <article
+                className="about-card"
+                data-aos="fade-left"
+                data-aos-delay="1400"
+              >
+                <VscFolderLibrary className="about-card-icon" />
+                <h5>Projects</h5>
+                <small>10+ Projects</small>
+              </article>
+            </a>
           </div>
           <p
             style={{ textAlign: "justify" }}
@@ -88,6 +119,6 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
-export default About
+  );
+};
+export default About;
