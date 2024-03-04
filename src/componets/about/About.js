@@ -48,9 +48,9 @@ const About = () => {
 
             <a
               className="about-card-link"
-              // href="https://ugm.ac.id/"
-              // target="_blank"
-              // rel="noreferrer"
+              href="https://github.com/RonnyKn/"
+              target="_blank"
+              rel="noreferrer"
             >
               <article
                 className="about-card"
