@@ -1,7 +1,7 @@
-import "./Skill.css"
-import React from "react"
-import { ImHtmlFive2 } from "react-icons/im"
-import { FaNodeJs } from "react-icons/fa"
+import "./Skill.css";
+import React from "react";
+import { ImHtmlFive2 } from "react-icons/im";
+import { FaNodeJs } from "react-icons/fa";
 import {
   SiCss3,
   SiJavascript,
@@ -13,7 +13,7 @@ import {
   SiNextdotjs,
   SiMongodb,
   SiMysql,
-} from "react-icons/si"
+} from "react-icons/si";
 
 const Skill = () => {
   return (
@@ -84,10 +84,10 @@ const Skill = () => {
               <SiNextdotjs color="black" className="skill-content-icon2" />
               <div>
                 <h4>NextJs </h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
-   
+
             <article
               className="skill-details"
               data-aos="fade-in"
@@ -136,7 +136,7 @@ const Skill = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </article>
-          
+
             <article
               className="skill-details"
               data-aos="fade-in"
@@ -174,7 +174,7 @@ const Skill = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Skill
+export default Skill;
