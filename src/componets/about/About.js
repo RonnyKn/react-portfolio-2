@@ -103,9 +103,9 @@ const About = () => {
           >
             Hi, my name is Ronny Kurniawan. I design and build UI for modern
             websites. I've graduate from Gadjah Mada Univ and have experience at
-            BPJS Ketenagakerjaan Purwokerto & Stanford Teknologi Indonesia.
-            Football and Technologies are my favourite topics. Please visit my
-            GitHub profile for detail projects.
+            BPJS Ketenagakerjaan Purwokerto,PT Stanford Teknologi Indonesia and
+            Partojambe.com recently. Football and Technologies are my favourite
+            topics. Please visit my GitHub profile for detail projects.
           </p>
           <a
             href="#contact"
