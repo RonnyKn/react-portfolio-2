@@ -65,7 +65,7 @@ const About = () => {
 
             <a
               className="about-card-link"
-              href="https://www.bola.net/"
+              href="https://www.manutd.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -76,15 +76,14 @@ const About = () => {
               >
                 <GiTechnoHeart className="about-card-icon" />
                 <h5>Interest</h5>
-                <small>Football </small>
+                <small>Football</small>
               </article>
             </a>
 
             <a
               className="about-card-link"
-              href="https://github.com/RonnyKn/"
-              target="_blank"
-              rel="noreferrer"
+              href="#portfolio"
+              // onClick={() => setIsActive("#portfolio")}
             >
               <article
                 className="about-card"
@@ -93,7 +92,7 @@ const About = () => {
               >
                 <VscFolderLibrary className="about-card-icon" />
                 <h5>Projects</h5>
-                <small>10+ Projects</small>
+                <small>20+ Projects</small>
               </article>
             </a>
           </div>
