@@ -5,14 +5,14 @@ import { FaNodeJs } from "react-icons/fa";
 import {
   SiCss3,
   SiJavascript,
-  SiBootstrap,
+  SiTailwindcss,
   SiReact,
-  SiTypescript,
-  SiAdobephotoshop,
+  SiExpress,
   SiGithub,
   SiNextdotjs,
-  SiMongodb,
   SiMysql,
+  SiPostgresql,
+  SiPrisma,
 } from "react-icons/si";
 
 const Skill = () => {
@@ -93,26 +93,13 @@ const Skill = () => {
               data-aos="fade-in"
               data-aos-delay="1100"
             >
-              <SiBootstrap color="#8812fc" className="skill-content-icon2" />
+              <SiTailwindcss color="#8812fc" className="skill-content-icon2" />
               <div>
-                <h4>Bootstrap </h4>
+                <h4>Tailwind </h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1200"
-            >
-              <SiAdobephotoshop
-                color="#0654a6"
-                className="skill-content-icon2"
-              />
-              <div>
-                <h4>Photoshop </h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+
             <article
               className="skill-details"
               data-aos="fade-in"
@@ -128,11 +115,23 @@ const Skill = () => {
             <article
               className="skill-details"
               data-aos="fade-in"
+              data-aos-delay="1200"
+            >
+              <SiPrisma color="#0654a6" className="skill-content-icon2" />
+              <div>
+                <h4>Prisma ORM </h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+
+            <article
+              className="skill-details"
+              data-aos="fade-in"
               data-aos-delay="1000"
             >
-              <SiTypescript color="#00affe" className="skill-content-icon2" />
+              <SiExpress color="#00affe" className="skill-content-icon2" />
               <div>
-                <h4>Typescript </h4>
+                <h4>ExpressJs </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
@@ -153,9 +152,12 @@ const Skill = () => {
               data-aos="fade-in"
               data-aos-delay="1600"
             >
-              <SiMongodb color="lightgreen" className="skill-content-icon2" />
+              <SiPostgresql
+                color="lightgreen"
+                className="skill-content-icon2"
+              />
               <div>
-                <h4>MongoDB </h4>
+                <h4>PostgreSQL </h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
