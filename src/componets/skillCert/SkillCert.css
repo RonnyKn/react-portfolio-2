@@ -1,5 +1,7 @@
+.skill-container {
+  margin: 3rem auto;
+}
 .skill-frontend {
-  /* background: var(--color-bg-variant); */
   border-radius: 0 0 2rem 2rem;
   border: 1px solid transparent;
   border-color: var(--color-primary);
@@ -16,7 +18,7 @@
   width: 100%;
   height: 3rem;
   margin: 0 auto;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   background: var(--color-primary);
   border-radius: 0 0 20rem 20rem;
   color: var(--color-bg-variant);
@@ -34,7 +36,6 @@
 .skill-details {
   display: flex;
   gap: 1rem;
-
 }
 
 .skill-content-icon2 {
@@ -42,8 +43,33 @@
   transform: scale(2);
 }
 
+/* =============================Certificates================================= */
+.cert-content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  gap: 1rem;
+}
+.cert-content {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: var(--transition);
+  gap: 1rem;
+}
+.cert-content img {
+  height: 100%;
+}
+.cert-desc {
+  display: flex;
+  flex-direction: column;
+}
 /* ====================MEDIA QUERIES (MEDIUM DEVICES)============================= */
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   #skill {
     height: 100%;
   }
@@ -51,12 +77,11 @@
   .skill-content {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto 0 4rem;
-
   }
 }
 
 /* ====================MEDIA QUERIES (SMALL DEVICES/phones)============================= */
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .skill-frontend {
     width: 100%;
     margin: 0 auto;
@@ -64,7 +89,10 @@
 
   .skill-content {
     grid-template-columns: 1fr 1fr;
-    padding: 1rem 0 1.5rem .8rem;
+    padding: 1rem 0 1.5rem 0.8rem;
     margin: 0 auto 0 2rem;
+  }
+  .cert-content-container {
+    grid-template-columns: 1fr;
   }
 }
