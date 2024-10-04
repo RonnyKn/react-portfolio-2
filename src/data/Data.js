@@ -37,6 +37,12 @@ import PortfolioImg6 from "../assets/portfolio6.jpg";
 //footer data
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 
+const getDate = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+  return year;
+};
+
 const socialsData = [
   {
     id: 1,
@@ -332,7 +338,7 @@ const footerDatas = {
       link: "https://twitter.com/ronny_kn",
     },
   ],
-  copyright: "© 2022 Ronny Kn. All rights reserved.",
+  copyright: `© ${getDate()} Ronny Kn. All rights reserved`,
 };
 
 export {
