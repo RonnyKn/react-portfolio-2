@@ -230,7 +230,7 @@ const skillCertificateDatas = {
         data_aos_delay: "900",
         img: CertificateImg4,
         title: "UI/UX Design & Metode UX Research",
-        desc: "Sertifikat UI/UX Design & Metode UX Research dari Binar.com",
+        desc: "Sertifikat UI/UX Design & Metode UX Research dari BinarAcademy",
       },
     ],
   },
