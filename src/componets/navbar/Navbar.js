@@ -1,51 +1,23 @@
-import "./Navbar.css"
-import React, { useState } from "react"
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
-import { HiCode } from "react-icons/hi"
-import { BiMessageRoundedDetail } from "react-icons/bi"
-import { VscFolderLibrary } from "react-icons/vsc"
+import "./Navbar.css";
+import React, { useState } from "react";
+import { navbarData } from "../../data/Data";
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState("#home")
+  const [isActive, setIsActive] = useState("#home");
   return (
     <nav>
-      <a
-        href="#home"
-        className={isActive === "#home" ? "active" : ""}
-        onClick={() => setIsActive("#home")}
-      >
-        <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        className={isActive === "#about" ? "active" : ""}
-        onClick={() => setIsActive("#about")}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#skill"
-        className={isActive === "#skill" ? "active" : ""}
-        onClick={() => setIsActive("#skill")}
-      >
-        <HiCode />
-      </a>
-      <a
-        href="#portfolio"
-        className={isActive === "#portfolio" ? "active" : ""}
-        onClick={() => setIsActive("#portfolio")}
-      >
-        <VscFolderLibrary />
-      </a>
-      <a
-        href="#contact"
-        className={isActive === "#contact" ? "active" : ""}
-        onClick={() => setIsActive("#contact")}
-      >
-        <BiMessageRoundedDetail />
-      </a>
+      {navbarData.map((data) => (
+        <a
+          href={data?.link}
+          className={isActive === data?.link ? data?.active : ""}
+          onClick={() => setIsActive(data?.link)}
+          key={data?.id}
+        >
+          {data?.icon}
+        </a>
+      ))}
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

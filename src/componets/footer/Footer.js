@@ -1,6 +1,6 @@
-import React from "react"
-import "./Footer.css"
-import { BsInstagram, BsFacebook, BsTwitter } from "react-icons/bs"
+import React from "react";
+import "./Footer.css";
+import { footerDatas } from "../../data/Data";
 const Footer = () => {
   return (
     <footer id="footer">
@@ -8,46 +8,24 @@ const Footer = () => {
         RONNYKN
       </a>
       <ul className="footer-permalinks">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#skill">Skill</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+        {footerDatas?.permalinks?.map((data) => (
+          <li key={data?.id}>
+            <a href={data?.link}>{data?.tag}</a>
+          </li>
+        ))}
       </ul>
       <div className="footer-socials">
-        <a
-          href="https://www.facebook.com/ronnykn"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <BsFacebook />
-        </a>
-        <a
-          href="https://instagram.com/ronny.kn"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <BsInstagram />
-        </a>
-        <a href="https://twitter.com/ronny_kn" target="_blank" rel="noreferrer">
-          <BsTwitter />
-        </a>
+        {footerDatas?.socials?.map((data) => (
+          <a href={data?.link} target="_blank" rel="noreferrer" key={data?.id}>
+            {data?.icon}
+          </a>
+        ))}
       </div>
       <div className="footer-copyright">
-        <small>&copy; RonnyKn. All rights reserved.</small>
+        <small>{footerDatas?.copyright}</small>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

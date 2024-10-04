@@ -1,19 +1,6 @@
 import "./Skill.css";
 import React from "react";
-import { ImHtmlFive2 } from "react-icons/im";
-import { FaNodeJs } from "react-icons/fa";
-import {
-  SiCss3,
-  SiJavascript,
-  SiTailwindcss,
-  SiReact,
-  SiExpress,
-  SiGithub,
-  SiNextdotjs,
-  SiMysql,
-  SiPostgresql,
-  SiPrisma,
-} from "react-icons/si";
+import { skillDatas } from "../../data/Data";
 
 const Skill = () => {
   return (
@@ -31,147 +18,20 @@ const Skill = () => {
             <h3>Development Skills</h3>
           </div>
           <div className="skill-content">
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="600"
-            >
-              <ImHtmlFive2 color="#e54d26" className="skill-content-icon2" />
-              <div>
-                <h4>HTML </h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="700"
-            >
-              <SiCss3 color="#264ee4" className="skill-content-icon2" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="800"
-            >
-              <SiJavascript color="yellow" className="skill-content-icon2" />
-              <div>
-                <h4>Javascript </h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="900"
-            >
-              <SiReact color="cyan" className="skill-content-icon2" />
-              <div>
-                <h4>ReactJs </h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1400"
-            >
-              <SiNextdotjs color="black" className="skill-content-icon2" />
-              <div>
-                <h4>NextJs </h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1100"
-            >
-              <SiTailwindcss color="#8812fc" className="skill-content-icon2" />
-              <div>
-                <h4>Tailwind </h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1300"
-            >
-              <SiGithub color="#fff" className="skill-content-icon2" />
-              <div>
-                <h4>GitHub </h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1200"
-            >
-              <SiPrisma color="#0654a6" className="skill-content-icon2" />
-              <div>
-                <h4>Prisma ORM </h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1000"
-            >
-              <SiExpress color="#00affe" className="skill-content-icon2" />
-              <div>
-                <h4>ExpressJs </h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1500"
-            >
-              <FaNodeJs color="lightgreen" className="skill-content-icon2" />
-              <div>
-                <h4>NodeJs </h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1600"
-            >
-              <SiPostgresql
-                color="lightgreen"
-                className="skill-content-icon2"
-              />
-              <div>
-                <h4>PostgreSQL </h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-            <article
-              className="skill-details"
-              data-aos="fade-in"
-              data-aos-delay="1700"
-            >
-              <SiMysql color="orange" className="skill-content-icon2" />
-              <div>
-                <h4>MySQL </h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
+            {skillDatas.map((data) => (
+              <article
+                className="skill-details"
+                data-aos="fade-in"
+                data-aos-delay={data?.data_aos_delay}
+                key={data?.id}
+              >
+                {data?.icon}
+                <div>
+                  <h4>{data?.title}</h4>
+                  <small className="text-light">{data?.desc}</small>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </div>

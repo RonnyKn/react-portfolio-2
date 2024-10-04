@@ -1,7 +1,7 @@
-import "./Portfolio.css"
-import React from "react"
-import { SiGithub, SiNetlify } from "react-icons/si"
-import { portfolioDatas } from "../../data/Data"
+import "./Portfolio.css";
+import React from "react";
+import { SiGithub, SiNetlify } from "react-icons/si";
+import { portfolioDatas } from "../../data/Data";
 
 const Portfolio = () => {
   return (
@@ -38,24 +38,20 @@ const Portfolio = () => {
               >
                 GitHub <SiGithub />
               </a>
-              {data?.demo === undefined ? (
-                ""
-              ) : (
-                <a
-                  href={data?.demo}
-                  className="btn btn-primary centered"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Demo <SiNetlify />
-                </a>
-              )}
+              <a
+                href={data?.demo}
+                className="btn btn-primary centered"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Demo <SiNetlify />
+              </a>
             </div>
           </article>
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
