@@ -1,5 +1,5 @@
 import React from "react";
-import { socialsData } from "../../data/Data";
+import { socialsData } from "../../data/Data.jsx";
 
 const HeaderSocials = () => {
   return (

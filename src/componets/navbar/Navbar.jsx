@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import React, { useState } from "react";
-import { navbarData } from "../../data/Data";
+import { navbarData } from "../../data/Data.jsx";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState("#home");

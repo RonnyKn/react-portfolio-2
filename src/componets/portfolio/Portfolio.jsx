@@ -1,7 +1,7 @@
 import "./Portfolio.css";
 import React from "react";
 import { SiGithub, SiNetlify } from "react-icons/si";
-import { portfolioDatas } from "../../data/Data";
+import { portfolioDatas } from "../../data/Data.jsx";
 
 const Portfolio = () => {
   return (

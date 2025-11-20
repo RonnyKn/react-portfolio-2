@@ -1,6 +1,6 @@
 import "./SkillCert.css";
 import React from "react";
-import { skillCertificateDatas } from "../../data/Data";
+import { skillCertificateDatas } from "../../data/Data.jsx";
 import SkillTable from "./SkillTable";
 import CertTable from "./CertTable";
 const SkillCert = () => {
