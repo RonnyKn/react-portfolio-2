@@ -1,0 +1,10 @@
+[build]
+  # Perintah yang dijalankan Netlify untuk mem-build proyek Anda
+  command = "npm run build"
+  
+  # Folder hasil build (ubah menjadi "build" jika framework Anda menghasilkan folder build, atau "dist" jika menggunakan Vite)
+  publish = "dist"
+
+[build.environment]
+  # Mengunci versi Node.js agar menggunakan versi 20 (sesuai dengan lokal Anda)
+  NODE_VERSION = "20"
